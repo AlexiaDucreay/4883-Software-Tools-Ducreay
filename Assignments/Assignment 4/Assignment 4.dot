@@ -1,0 +1,27 @@
+//Name: Alexia Ducreay
+//Subject: Software Tools 4883
+//Label: Assignment 4
+//Description:Create a binary search tree using graphviz that contains seven
+//nodes and uses a record as its shape. The record should have left data right sections.
+
+digraph BinaryTree {
+   
+    node [shape=record]
+    
+    // Define the nodes
+    A [label="<left> |<data> 8 |<right>"];
+    B [label="<left> |<data> 13 |<right>"];
+    C [label="<left> |<data> 4 |<right>"];
+    D [label="<left> |<data> 20 |<right>"];
+    E [label="<left> |<data> 6 |<right>"];
+    F [label="<left> |<data> 17 |<right>"];
+    G [label="<left> |<data> 30 |<right>"];
+   
+    // Define the edges
+    A:right -> B:data;
+    A:left -> C:data;
+    B:right -> D:data;
+    C:right -> E:data:
+    D:left -> F:data;
+    D:right -> G:data;
+}
