@@ -2,7 +2,7 @@
 ## Topic: SendBird
 ### Name: Alexia Ducreay
 
-!IMG_20180110_001701_281]https://www.prweb.com/releases/sendbird_joins_unicorn_club_as_mobile_communications_become_essential_in_the_lives_of_billions_of_people_across_the_globe/prweb17845762.htm)
+![logo](https://github.com/AlexiaDucreay/4883-Software-Tools-Ducreay/assets/48137129/23664294-f9e0-40de-b577-fc56fa6321c8)
 
 ### Understanding SendBird
 
