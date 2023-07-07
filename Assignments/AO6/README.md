@@ -18,44 +18,45 @@ This README provides an overview of the features offered by SendBird, explains h
 
 ## languages SendBird Support
 
-- iOS: SendBird offers a native iOS SDK, allowing developers to incorporate real-time chat, messaging, and voice/video calling functionalities into their iOS applications using Swift or 
-  Objective-C.
+- **iOS**: SendBird offers a native iOS SDK, allowing developers to incorporate real-time chat, messaging, and voice/video calling functionalities into their iOS applications using Swift 
+   or Objective-C.
+  
+- **Android**: SendBird provides a native Android SDK, enabling developers to integrate real-time communication features into their Android applications using Java or Kotlin.
 
-- Android: SendBird provides a native Android SDK, enabling developers to integrate real-time communication features into their Android applications using Java or Kotlin.
-
-- JavaScript: SendBird supports JavaScript, providing a JavaScript SDK that can be used to integrate real-time chat and messaging capabilities into web applications or hybrid mobile 
+- **JavaScript**: SendBird supports JavaScript, providing a JavaScript SDK that can be used to integrate real-time chat and messaging capabilities into web applications or hybrid mobile 
   applications using frameworks like React or Angular.
 
-- React Native: SendBird offers a React Native SDK, allowing developers to build cross-platform mobile applications with real-time chat functionalities using JavaScript.
+- **React Native**: SendBird offers a React Native SDK, allowing developers to build cross-platform mobile applications with real-time chat functionalities using JavaScript.
 
-- Unity: SendBird provides a Unity SDK, enabling developers to integrate real-time chat and messaging features into Unity-powered games and applications.
+- **Unity**: SendBird provides a Unity SDK, enabling developers to integrate real-time chat and messaging features into Unity-powered games and applications.
 
-- .NET: SendBird offers a .NET SDK, allowing developers to incorporate real-time chat functionalities into their applications developed using .NET frameworks, such as ASP.NET or Xamarin.
+- **.NET**: SendBird offers a .NET SDK, allowing developers to incorporate real-time chat functionalities into their applications developed using .NET frameworks, such as ASP.NET or 
+  Xamarin.
 
 ## Integrations
 
 - SendBird offers integrations with various popular tools and platforms to enhance the functionality and capabilities of its real-time communication platform. Here are some notable SendBird integrations:
 
-- Firebase: SendBird integrates seamlessly with Firebase, a comprehensive mobile development platform provided by Google. By combining SendBird with Firebase, you can leverage Firebase's 
-  authentication, real-time database, and cloud functions to enhance your chat application's functionality and security.
+- **Firebase**: SendBird integrates seamlessly with Firebase, a comprehensive mobile development platform provided by Google. By combining SendBird with Firebase, you can leverage 
+    Firebase's authentication, real-time database, and cloud functions to enhance your chat application's functionality and security.
+  
+- **Twilio**: Twilio integration allows you to enhance your real-time communication capabilities by leveraging Twilio's robust SMS and voice calling services. With this integration, you 
+   can extend SendBird's chat functionality with SMS notifications and enable voice-calling features within your application.
 
-- Twilio: Twilio integration allows you to enhance your real-time communication capabilities by leveraging Twilio's robust SMS and voice calling services. With this integration, you can 
-  extend SendBird's chat functionality with SMS notifications and enable voice-calling features within your application.
-
-- React Native: SendBird offers a React Native SDK, enabling developers to build cross-platform mobile applications with real-time chat capabilities. The integration provides native 
+- **React Native**: SendBird offers a React Native SDK, enabling developers to build cross-platform mobile applications with real-time chat capabilities. The integration provides native 
   support for both iOS and Android platforms, allowing you to create engaging and interactive chat experiences.
 
-- Zendesk: By integrating SendBird with Zendesk, a leading customer support platform, you can streamline customer service interactions. This integration allows you to escalate chat 
+- **Zendesk**: By integrating SendBird with Zendesk, a leading customer support platform, you can streamline customer service interactions. This integration allows you to escalate chat 
   conversations from SendBird to Zendesk, enabling seamless transition and efficient management of support tickets.
 
-- Salesforce: SendBird's integration with Salesforce brings real-time chat capabilities to the Salesforce platform. This integration enables customer support agents to engage in real-time 
-  conversations with customers, enhancing the overall customer experience and improving response times.
+- **Salesforce**: SendBird's integration with Salesforce brings real-time chat capabilities to the Salesforce platform. This integration enables customer support agents to engage in real- 
+   time conversations with customers, enhancing the overall customer experience and improving response times.
 
-- Stripe: SendBird's integration with Stripe, a popular payment processing platform, enables businesses to facilitate secure and seamless in-app purchases. This integration allows you to 
-  combine real-time chat with payment functionality, creating a smooth transaction experience for your users.
+- **Stripe**: SendBird's integration with Stripe, a popular payment processing platform, enables businesses to facilitate secure and seamless in-app purchases. This integration allows you 
+   to  combine real-time chat with payment functionality, creating a smooth transaction experience for your users.
 
-- Unity: SendBird offers a Unity SDK, enabling developers to integrate real-time chat and messaging capabilities into their Unity-powered games and applications. This integration allows 
-  for in-game chat, multiplayer interactions, and community building within the Unity environment.
+- **Unity**: SendBird offers a Unity SDK, enabling developers to integrate real-time chat and messaging capabilities into their Unity-powered games and applications. This integration 
+  allows for in-game chat, multiplayer interactions, and community building within the Unity environment.
 
 ## Features
 
