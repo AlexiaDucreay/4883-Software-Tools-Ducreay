@@ -77,6 +77,32 @@ These features are just a glimpse of what SendBird has to offer.
 
 SendBird operates on a client-server architecture, where clients (web, mobile, desktop, etc.) interact with the SendBird server to send and receive messages. The SendBird server handles the storage and delivery of messages between clients, ensuring real-time communication.
 
+
++---------------------+
+| |
+| Clients |
+| (Web, Mobile, etc) |
+| |
++----------+----------+
+|
+| SendBird SDK
+|
++----------v----------+
+| |
+| SendBird Server |
+| |
++----------+----------+
+|
+| SendBird API
+|
++----------v----------+
+| |
+| External Services |
+| (Push, Storage, |
+| Moderation, etc) |
+| |
++---------------------+
+
 The key components and workflow in SendBird are as follows:
 
 1. **Users**: Users are the participants in a chat application. Each user is identified by a unique user ID and can have additional profile information.
@@ -90,6 +116,9 @@ The key components and workflow in SendBird are as follows:
 5. **APIs**: SendBird provides RESTful APIs and SDKs that developers can use to interact with the SendBird server. The APIs enable operations such as creating channels, sending messages, managing users, and more.
 
 ## Getting Started
+
+<img width="557" alt="requirements" src="https://github.com/AlexiaDucreay/4883-Software-Tools-Ducreay/assets/48137129/07410281-f3dd-4d3e-b15e-e608de090275">
+
 
 To start using SendBird in your application, follow these steps:
 
