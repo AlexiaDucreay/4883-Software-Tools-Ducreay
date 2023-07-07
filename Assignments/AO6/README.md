@@ -109,40 +109,43 @@ Replace **'YOUR_APP_ID'** with the actual App ID obtained from the SendBird dash
 
 User Authentication: To interact with SendBird, you need to authenticate your users. Use the SendBird SDK to authenticate a user and obtain a user token. Here's an example in JavaScript:
 
-  ```javascript
-  const USER_ID = 'YOUR_USER_ID';
-  const USER_NICKNAME = 'John Doe';
+    ```javascript
+    const USER_ID = 'YOUR_USER_ID';
+    const USER_NICKNAME = 'John Doe';
 
-  SendBird.login({ userId: USER_ID, nickname: USER_NICKNAME }, (user, error) => {
-    if (error) {
-      console.error(error);
-      return;
-    }
-    // User authentication successful
-  });
+  `  SendBird.login({ userId: USER_ID, nickname: USER_NICKNAME }, (user, error) => {
+      if (error) {
+        console.error(error);
+        return;
+      }
+      // User authentication successful
+    });
 
 
-Replace **'YOUR_USER_ID'**  and 'John Doe' with the appropriate user information.
+Replace **'YOUR_USER_ID'**  and **'John Doe'** with the appropriate user information.
 
 
 Creating and Joining Channels: Once users are authenticated, you can create or join channels to enable chat functionality. Here's an example of creating a group channel in JavaScript:
 
-```javascript
+    ```javascript
 
-const channelParams = new SendBird.GroupChannelParams()
-  .setName('My Group Channel')
-  .addUserIds(['USER_ID_1', 'USER_ID_2'])
-  .setCoverUrl('https://example.com/channel_cover_image.jpg')
-  .setData({ customKey: 'customValue' });
+    const channelParams = new SendBird.GroupChannelParams()
+      .setName('My Group Channel')
+      .addUserIds(['USER_ID_1', 'USER_ID_2'])
+      .setCoverUrl('https://example.com/channel_cover_image.jpg')
+      .setData({ customKey: 'customValue' });
 
-SendBird.GroupChannel.createChannel(channelParams, (channel, error) => {
-  if (error) {
-    console.error(error);
-    return;
-  }
-  // Channel created successfully
-});
+    SendBird.GroupChannel.createChannel(channelParams, (channel, error) => {
+      if (error) {
+        console.error(error);
+        return;
+      }
+      // Channel created successfully
+    });
 
 
-Replace 'USER_ID_1' and 'USER_ID_2' with the user IDs of the participants you want to add to the channel.
+Replace **'USER_ID_1'** and **'USER_ID_2'** with the user IDs of the participants you want to add to the channel.
+<img width="874" alt="Channels" src="https://github.com/AlexiaDucreay/4883-Software-Tools-Ducreay/assets/48137129/6c592ad5-dad0-41b3-9679-83cc5ff9734b">
+
+
 
