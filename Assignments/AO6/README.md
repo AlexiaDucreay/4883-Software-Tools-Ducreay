@@ -1,6 +1,6 @@
 ## Assignment 6 - Software Tool Presentation
 ## Topic: SendBird
-### Name: Alexia Ducreay
+##### Name: Alexia Ducreay
 
 ![logo](https://github.com/AlexiaDucreay/4883-Software-Tools-Ducreay/assets/48137129/23664294-f9e0-40de-b577-fc56fa6321c8)
 
