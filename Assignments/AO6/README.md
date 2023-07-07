@@ -109,17 +109,18 @@ Replace **'YOUR_APP_ID'** with the actual App ID obtained from the SendBird dash
 
 User Authentication: To interact with SendBird, you need to authenticate your users. Use the SendBird SDK to authenticate a user and obtain a user token. Here's an example in JavaScript:
 
-```javascript
-const USER_ID = 'YOUR_USER_ID';
-const USER_NICKNAME = 'John Doe';
+  ```javascript
+  const USER_ID = 'YOUR_USER_ID';
+  const USER_NICKNAME = 'John Doe';
 
-SendBird.login({ userId: USER_ID, nickname: USER_NICKNAME }, (user, error) => {
-  if (error) {
-    console.error(error);
-    return;
-  }
-  // User authentication successful
-});
+  SendBird.login({ userId: USER_ID, nickname: USER_NICKNAME }, (user, error) => {
+    if (error) {
+      console.error(error);
+      return;
+    }
+    // User authentication successful
+  });
+
 
 Replace **'YOUR_USER_ID'**  and 'John Doe' with the appropriate user information.
 
