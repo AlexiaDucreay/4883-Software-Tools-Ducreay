@@ -1,6 +1,8 @@
 ## Assignment 6 - Software Tool Presentation
+## Topic: SendBird
+### Name: Alexia Ducreay
 
-#### Due: Multiple Dates
+![https://www.prweb.com/releases/sendbird_joins_unicorn_club_as_mobile_communications_become_essential_in_the_lives_of_billions_of_people_across_the_globe/prweb17845762.htm)
 
 ### Understanding SendBird
 
