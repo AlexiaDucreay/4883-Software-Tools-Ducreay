@@ -128,7 +128,6 @@ Replace **'YOUR_USER_ID'**  and **'John Doe'** with the appropriate user informa
 Creating and Joining Channels: Once users are authenticated, you can create or join channels to enable chat functionality. Here's an example of creating a group channel in JavaScript:
 
     ```javascript
-
     const channelParams = new SendBird.GroupChannelParams()
       .setName('My Group Channel')
       .addUserIds(['USER_ID_1', 'USER_ID_2'])
@@ -143,9 +142,36 @@ Creating and Joining Channels: Once users are authenticated, you can create or j
       // Channel created successfully
     });
 
-
 Replace **'USER_ID_1'** and **'USER_ID_2'** with the user IDs of the participants you want to add to the channel.
+
 <img width="874" alt="Channels" src="https://github.com/AlexiaDucreay/4883-Software-Tools-Ducreay/assets/48137129/6c592ad5-dad0-41b3-9679-83cc5ff9734b">
+
+
+Sending and Receiving Messages: With channels created, you can send and receive messages between users. Here's an example of sending a message in JavaScript:
+    
+    ```javascript
+    const channelUrl = 'CHANNEL_URL';
+    
+    const params = new SendBird.UserMessageParams()
+      .setMessage('Hello, SendBird!')
+      .setCustomType('greeting')
+      .setData({ additionalData: 'value' });
+    
+    SendBird.GroupChannel.getChannel(channelUrl, (channel, error) => {
+      if (error) {
+        console.error(error);
+        return;
+      }
+    
+      channel.sendUserMessage(params, (message, error) => {
+        if (error) {
+          console.error(error);
+          return;
+        }
+        // Message sent successfully
+      });
+    });
+Replace **'CHANNEL_URL'** with the URL of the desired channel.
 
 
 
