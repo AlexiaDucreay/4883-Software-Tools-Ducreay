@@ -14,6 +14,23 @@ SendBird is a powerful cloud-based chat and messaging platform that allows devel
 
 This README provides an overview of the features offered by SendBird, explains how it works, and provides guidance on implementing SendBird into your application with example code.
 
+## languages SendBird Support
+
+- iOS: SendBird offers a native iOS SDK, allowing developers to incorporate real-time chat, messaging, and voice/video calling functionalities into their iOS applications using Swift or 
+  Objective-C.
+
+- Android: SendBird provides a native Android SDK, enabling developers to integrate real-time communication features into their Android applications using Java or Kotlin.
+
+- JavaScript: SendBird supports JavaScript, providing a JavaScript SDK that can be used to integrate real-time chat and messaging capabilities into web applications or hybrid mobile 
+  applications using frameworks like React or Angular.
+
+- React Native: SendBird offers a React Native SDK, allowing developers to build cross-platform mobile applications with real-time chat functionalities using JavaScript.
+
+- Unity: SendBird provides a Unity SDK, enabling developers to integrate real-time chat and messaging features into Unity-powered games and applications.
+
+- .NET: SendBird offers a .NET SDK, allowing developers to incorporate real-time chat functionalities into their applications developed using .NET frameworks, such as ASP.NET or Xamarin.
+
+
 ## Features
 
 SendBird offers a wide range of features to enhance your chat application:
@@ -62,7 +79,7 @@ To start using SendBird in your application, follow these steps:
 
 Replace **'YOUR_APP_ID'** with the actual App ID obtained from the SendBird dashboard.  
 
-#### Image:
+#### Application ID:
 <img width="1004" alt="Application ID" src="https://github.com/AlexiaDucreay/4883-Software-Tools-Ducreay/assets/48137129/67f58325-88d9-4611-a62f-9a7f74e13284">
 
 
