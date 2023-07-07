@@ -78,30 +78,7 @@ These features are just a glimpse of what SendBird has to offer.
 SendBird operates on a client-server architecture, where clients (web, mobile, desktop, etc.) interact with the SendBird server to send and receive messages. The SendBird server handles the storage and delivery of messages between clients, ensuring real-time communication.
 
 
-+---------------------+
-| |
-| Clients |
-| (Web, Mobile, etc) |
-| |
-+----------+----------+
-|
-| SendBird SDK
-|
-+----------v----------+
-| |
-| SendBird Server |
-| |
-+----------+----------+
-|
-| SendBird API
-|
-+----------v----------+
-| |
-| External Services |
-| (Push, Storage, |
-| Moderation, etc) |
-| |
-+---------------------+
+
 
 The key components and workflow in SendBird are as follows:
 
