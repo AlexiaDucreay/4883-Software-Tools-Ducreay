@@ -60,11 +60,21 @@ To start using SendBird in your application, follow these steps:
    const APP_ID = 'YOUR_APP_ID';
    SendBird.init(APP_ID);
 
+Replace 'YOUR_APP_ID' with the actual App ID obtained from the SendBird dashboard.  
+
+User Authentication: To interact with SendBird, you need to authenticate your users. Use the SendBird SDK to authenticate a user and obtain a user token. Here's an example in JavaScript:
+
+javascript
+Copy code
+const USER_ID = 'YOUR_USER_ID';
+const USER_NICKNAME = 'John Doe';
+
+SendBird.login({ userId: USER_ID, nickname: USER_NICKNAME }, (user, error) => {
+  if (error) {
+    console.error(error);
+    return;
+  }
+  // User authentication successful
+});
 
 
-- **the major topic** (cloud, ide plugin, server, AI, console, etc.)
-- **relevance** (describe why this is relevant to the class, or how it will build their resume`)
-- **background** (if it as advanced topic, you need to give background and bring class up to speed)
-- **examples** (show examples of your tool and its productivity)
-
-You do not need to create a powerpoint presentation, unless you feel it will enhance the explanation of the tool. You will however create a README file in your repository within the assignments folder that has an overview of your presentation.
