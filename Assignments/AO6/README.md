@@ -60,12 +60,11 @@ To start using SendBird in your application, follow these steps:
    const APP_ID = 'YOUR_APP_ID';
    SendBird.init(APP_ID);
 
-Replace 'YOUR_APP_ID' with the actual App ID obtained from the SendBird dashboard.  
+Replace **'YOUR_APP_ID'** with the actual App ID obtained from the SendBird dashboard.  
 
 User Authentication: To interact with SendBird, you need to authenticate your users. Use the SendBird SDK to authenticate a user and obtain a user token. Here's an example in JavaScript:
 
-javascript
-Copy code
+```javascript
 const USER_ID = 'YOUR_USER_ID';
 const USER_NICKNAME = 'John Doe';
 
