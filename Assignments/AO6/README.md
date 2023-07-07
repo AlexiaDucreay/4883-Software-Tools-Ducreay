@@ -30,6 +30,30 @@ This README provides an overview of the features offered by SendBird, explains h
 
 - .NET: SendBird offers a .NET SDK, allowing developers to incorporate real-time chat functionalities into their applications developed using .NET frameworks, such as ASP.NET or Xamarin.
 
+## Integrations
+
+- SendBird offers integrations with various popular tools and platforms to enhance the functionality and capabilities of its real-time communication platform. Here are some notable SendBird integrations:
+
+- Firebase: SendBird integrates seamlessly with Firebase, a comprehensive mobile development platform provided by Google. By combining SendBird with Firebase, you can leverage Firebase's 
+  authentication, real-time database, and cloud functions to enhance your chat application's functionality and security.
+
+- Twilio: Twilio integration allows you to enhance your real-time communication capabilities by leveraging Twilio's robust SMS and voice calling services. With this integration, you can 
+  extend SendBird's chat functionality with SMS notifications and enable voice-calling features within your application.
+
+- React Native: SendBird offers a React Native SDK, enabling developers to build cross-platform mobile applications with real-time chat capabilities. The integration provides native 
+  support for both iOS and Android platforms, allowing you to create engaging and interactive chat experiences.
+
+- Zendesk: By integrating SendBird with Zendesk, a leading customer support platform, you can streamline customer service interactions. This integration allows you to escalate chat 
+  conversations from SendBird to Zendesk, enabling seamless transition and efficient management of support tickets.
+
+- Salesforce: SendBird's integration with Salesforce brings real-time chat capabilities to the Salesforce platform. This integration enables customer support agents to engage in real-time 
+  conversations with customers, enhancing the overall customer experience and improving response times.
+
+- Stripe: SendBird's integration with Stripe, a popular payment processing platform, enables businesses to facilitate secure and seamless in-app purchases. This integration allows you to 
+  combine real-time chat with payment functionality, creating a smooth transaction experience for your users.
+
+- Unity: SendBird offers a Unity SDK, enabling developers to integrate real-time chat and messaging capabilities into their Unity-powered games and applications. This integration allows 
+  for in-game chat, multiplayer interactions, and community building within the Unity environment.
 
 ## Features
 
@@ -56,9 +80,9 @@ The key components and workflow in SendBird are as follows:
 
 2. **Channels**: Channels are virtual spaces where users can exchange messages. SendBird supports various types of channels, such as open channels (public chat rooms) and group channels (private chat rooms).
 
-3. **Messages**: Messages are the units of communication in SendBird. They can contain text, multimedia attachments, or custom data. Messages are sent and received in real-time between users.
+3. **Messages**: Messages are the units of communication in SendBird. They can contain text, multimedia attachments, or custom data. Messages are sent and received in real time between users.
 
-4. **SendBird Server**: The SendBird server handles the authentication, message storage, and delivery. It acts as a relay between clients, ensuring messages reach their intended recipients.
+4. **SendBird Server**: The SendBird server handles authentication, message storage, and delivery. It acts as a relay between clients, ensuring messages reach their intended recipients.
 
 5. **APIs**: SendBird provides RESTful APIs and SDKs that developers can use to interact with the SendBird server. The APIs enable operations such as creating channels, sending messages, managing users, and more.
 
@@ -97,4 +121,27 @@ SendBird.login({ userId: USER_ID, nickname: USER_NICKNAME }, (user, error) => {
   // User authentication successful
 });
 
+Replace **'YOUR_USER_ID'**  and 'John Doe' with the appropriate user information.
+
+
+Creating and Joining Channels: Once users are authenticated, you can create or join channels to enable chat functionality. Here's an example of creating a group channel in JavaScript:
+
+```javascript
+
+const channelParams = new SendBird.GroupChannelParams()
+  .setName('My Group Channel')
+  .addUserIds(['USER_ID_1', 'USER_ID_2'])
+  .setCoverUrl('https://example.com/channel_cover_image.jpg')
+  .setData({ customKey: 'customValue' });
+
+SendBird.GroupChannel.createChannel(channelParams, (channel, error) => {
+  if (error) {
+    console.error(error);
+    return;
+  }
+  // Channel created successfully
+});
+
+
+Replace 'USER_ID_1' and 'USER_ID_2' with the user IDs of the participants you want to add to the channel.
 
